@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flappy Bird</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Flappy Bird</h1>
+  <div id="gameContainer">
+    <div id="bird"></div>
+  </div>
+  <h2 id="score">Time Left: 600s</h2>
+  <h2 id="gameOverText"></h2>
+  <button id="restartBtn">Restart</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
